@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg, rgb(222, 172, 172),rgb(202, 184, 152),rgb(225, 59, 225)) ;
+
+}
+.container{
+  border: 2px solid rgb(207, 202, 202);
+  height: auto;
+  width: 55vh;
+  padding: 9px 8px;
+
+}
+h2{
+    text-align: center;
+}
+.inputbox,input{
+    padding: 5px;
+    width: 50vh;
+    border: none;
+    outline: none;
+    margin-block: 2px;
+    background-color: rgb(242, 246, 250);
+    
+}
+.inputbox span{
+position:absolute;
+right: 32%;
+cursor: pointer;
+}
+.row{
+display: flex;
+margin-block: 8px;
+}
+.row, span{
+    flex-basis: 100%;
+    font-size:18px ;
+    
+}
+#sliderValue{
+    flex-basis: 10%;
+}
+.row-2{
+    display: flex;
+    margin-block: 8px;
+    font-size: 18px;
+}
+.row-2,input,label{
+    height: fit-content;
+    width: fit-content;
+}
+
+.genBtn{
+    border: none;
+    outline: none;
+    padding: 5px 8px;
+    margin-block: 10px;
+   background-color: #b685e4;
+   color: white;
+   cursor: pointer;
+   font-size: 18px;
+   border-radius: 8px;
+
+}
+
